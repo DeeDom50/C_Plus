@@ -3,7 +3,6 @@ name: dvante dominicci
 date: 2024 may 10
 description: program that computes sales tax
 */
-
 #include <stdio.h>
 
 int main() {
