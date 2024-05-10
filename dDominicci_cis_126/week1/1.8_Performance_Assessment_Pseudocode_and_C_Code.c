@@ -12,8 +12,8 @@ int main() {
     salesTax = salesAmount * taxRate; // Calculate sales tax based on the input sales amount
     totalSales = salesAmount + salesTax; // Calculate total sales including tax
 
-    printf("Here is the sales tax: %.2f\n", salesTax); // Print the sales tax
-    printf("Total Sales Amount: %.2f\n", totalSales); // Print the total sales amount
+    printf("The sales tax is: %.2f\n", salesTax); // Print the sales tax
+    printf("The total sales amount is: %.2f\n", totalSales); // Print the total sales amount
 
     return 0; 
 }
