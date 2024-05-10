@@ -3,10 +3,12 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
             ],
             "defines": [],
-            "macFrameworkPath": []
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/clang"
         }
     ],
     "version": 4
