@@ -18,7 +18,11 @@ int main() {
     average = (grade1 + grade2 + grade3) / 3.0;  
 
     // Print the average grade formatted to two decimal places
-    printf("The average grade is: %.2f\n", average);  
+    printf("The average grades is: %.2f\n", average);  
+
+    if (average > 65) {
+        printf("Youve passed!");
+    }
 
     return 0;
 }
