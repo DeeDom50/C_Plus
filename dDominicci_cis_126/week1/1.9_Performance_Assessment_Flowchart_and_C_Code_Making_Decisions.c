@@ -20,6 +20,7 @@ int main() {
     // Print the average grade formatted to two decimal places
     printf("The average grades is: %.2f\n", average);  
 
+    // Checking if the average grade is greater than 65 and print a message if true
     if (average > 65) {
         printf("Youve passed!");
     }
