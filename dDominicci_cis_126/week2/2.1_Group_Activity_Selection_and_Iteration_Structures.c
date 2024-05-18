@@ -1,26 +1,20 @@
 /*
 name: devante dominicci
 date: 2024 may 13
-description: program that totals the numbers between 100 and 200 and displays the final total.
+description: program that checks if the user is an adult or a minor.
 */
 #include <stdio.h>
-
-// Function prototypes
-void printWelcomeMessage();
-int addTwoNumbers(int a, int b);
-
 int main() {
-    printWelcomeMessage();
-    int result = addTwoNumbers(5, 3);
-    printf("The sum is: %d\n", result);
+    int age;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    if (age >= 18) {
+        printf("You are an adult.\n");
+    } else {
+        printf("You are a minor.\n");
+    }
+
     return 0;
-}
-
-// Function implementations
-void printWelcomeMessage() {
-    printf("Welcome to this C program!\n");
-}
-
-int addTwoNumbers(int a, int b) {
-    return a + b;
 }
