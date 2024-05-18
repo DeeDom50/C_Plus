@@ -1,5 +1,5 @@
 /*
-name: dvante dominicci
+name: devante dominicci
 date: 2024 may 13
 description: program that totals the numbers between 100 and 200 and displays the final total.
 */
