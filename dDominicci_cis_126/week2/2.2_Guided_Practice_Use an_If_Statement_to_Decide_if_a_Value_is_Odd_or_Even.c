@@ -13,8 +13,8 @@ printf("Enter an integer: ");
 
 scanf("%d", &number);
 
-if(number % 2 == 0)             //true if number is divisible by 2
-
+//true if number is divisible by 2
+if(number % 2 == 0) 
     printf("%d is even.", number);
 
     else
