@@ -1,7 +1,7 @@
 /*
 name: devante dominicci
-date: 2024 may 20
-description:
+date: 2024 june 02
+description: a program that uses an array structure and assignment statements to store four of your friends' ages. 
 */
 #include <stdio.h>
 
